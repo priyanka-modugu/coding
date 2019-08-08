@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+  int x,p,sum;
+  scanf("%d%d",&x,&p);
+  p=100-p;
+  while(x)
+  {
+     sum=sum+x;
+     x=(x*p)/100;
+   }
+   printf("%d",sum);
+   return 0;
+ }
